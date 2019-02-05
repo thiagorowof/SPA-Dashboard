@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Exo2-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Exo2-Regular'), local('Exo2-Regular'),
+       url('./assets/fonts/Exo2-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+/* Eu iria utilizar font local, mas decidir utilizar hosted font mesmo */
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body {
+  background-color: #f7f7f7;
+  margin: 0; 
+}
+
+h1, h2, p, ul, li {
+  font-family: 'Exo 2';
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #076E95;
+  padding: 0px 0px 0px 10%;
+  margin: 0;
+}
+ul.header li a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  font-family: 'Exo 2';
+  font-size: 15px;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+
+.active {
+  background-color: #ffffff;
+  color: #076E95 !important;
+}
+.active svg{
+  fill: #076E95;
+}
+.ReactTable{
+  border: none;
+  font-family: 'Exo 2';
+}
+.-headerGroups .rt-th, .headerClient{
+  font-family: 'Exo 2';
+  text-align: left;
+  color: #ffffff;
+  background-color: #076E95;
+}
+.ResponsiveContainer{
+  background-color: #ffffff;
+  max-width: 90%;
+  margin: 5% auto 5% auto;
+  margin-top: 0;
+}
+.ReactTable{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%; 
+}
+.ReactTable .rt-thead .rt-tr{
+  color: #9b9b9b;
+}
+.rt-resizable-header-content{
+  font-weight: bold;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-th.-sort-asc{
+  color: #4e76ff;
+}
+
+.headerClient{
+  padding:1%;
+  margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+.headersClient .headerClient{
+  width: 100%;
+}
