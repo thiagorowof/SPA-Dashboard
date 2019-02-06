@@ -6,8 +6,8 @@ import { StaticRouter } from 'react-router'
 test('Verify that the path to the clients screen exists', () => {
   const context = {};
   const component = renderer.create(
-    <StaticRouter location="/clientes" context={context}>
-      <Link to="/clientes" />
+    <StaticRouter location="/Clients" context={context}>
+      <Link to="/Clients" />
     </StaticRouter>
   );
 

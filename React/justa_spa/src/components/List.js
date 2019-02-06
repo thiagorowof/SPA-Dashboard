@@ -8,7 +8,6 @@ const mapStateToProps = state => {
   if(state.api.customer === undefined){
     console.log("Carregando dados da tabela")
     return {};
-    //TODO: Adicionar um loading a lista da tabela!
   } else{
     return { customers: state.api.customer.data};
   }
@@ -21,24 +20,19 @@ const ConnectedList = ({ customers }) => (
           data={customers}
           columns={[
             {
-              Header: "Nome",
-              accessor: "attributes.name"
+              Header: "Nome", accessor: "attributes.name"
             },
             {
-              Header: "Empresa",
-              accessor: "attributes.company"
+              Header: "Empresa", accessor: "attributes.company"
             },
             {
-              Header: "Status",
-              accessor: "attributes.status"
+              Header: "Status", accessor: "attributes.status"
             },
             {
-              Header: "Última Atualização",
-              accessor: "attributes.lastChange"
+              Header: "Última Atualização", accessor: "attributes.lastChange"
             },
             {
-              Header: "Notas",
-              accessor: "attributes.notes"
+              Header: "Notas", accessor: "attributes.notes"
             },
             {
               Header: "",
@@ -49,12 +43,9 @@ const ConnectedList = ({ customers }) => (
           ]}
           defaultSorted={[
             {
-              id: "attributes.name",
-              desc: true
+              id: "attributes.name",desc: true
             }
           ]}
-          // sorted={changeActiveTableIcon.sorted.sorted}
-          // onSortedChange={sorted => {changeActiveTableIcon.sorted = {sorted}; console.log(changeActiveTableIcon.sorted)}}
           defaultPageSize={10}
           className="-striped -highlight ReactTable"
           showPagination={false}

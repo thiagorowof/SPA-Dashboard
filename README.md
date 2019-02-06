@@ -24,7 +24,7 @@ Opcional do opcional que eu thiago pretendo fazer depois independente do teste e
 - [ ] Criar versões desse SPA utilizando outras tecnologias, começando pelo Ionic
 
 
-Agradeço ao Rai e o pessoal da Justa pela oportunidade e também por me proporcionarem essa "diversão:, que foi desenvolver esse projeto! :neckbeard:
+Agradeço ao Raí e o pessoal da Justa pela oportunidade e também por me proporcionarem essa "diversão:, que foi desenvolver esse projeto! :neckbeard:
 
 ## Instalação
 
@@ -57,13 +57,14 @@ npm run test
 Os testes vão rodar em seu terminal.
 
 
-## Work in progress / To do
+## To do
 
-* Melhorar a utilização dos styled components e ajustar um pouco mais o layout
-* Organizar/Limpar códigos, remover comentários e coisas do tipo
+* Melhorar código no geral
 
 ## Releases
 
+* 0.0.3
+    * Ajustes de layout/organização de código
 * 0.0.2
     * Mockado dados para json
     * Adicionado redux thunk

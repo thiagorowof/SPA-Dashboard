@@ -1,28 +1,28 @@
 import React, { Component } from "react";
-import AreaCharts from "../areaChart";
-import PizzaCharts from "../pizzaChart";
-import List from "../list";
+import AreaCharts from "../AreaChart";
+import PizzaCharts from "../PizzaChart";
+import List from "../List";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-class Clientes extends Component {
+class Clients extends Component {
   render() {
     return (
       <Container>
           <Row>
-            <Col style={{ backgroundColor: "white"}}>
+            <Col sm={8}>
               <div className="headerClient">Volume de transações</div>
               <AreaCharts/>
             </Col>
-            <Col style={{ backgroundColor: "white"}}>
+            <Col>
               <div className="headerClient">Base de clientes</div>
               <PizzaCharts/>
             </Col>
           </Row>
           <Row>
             <Col>
-              <div className="headerClient">Detalhe dos clientes</div>
+              <div className="headerClient marginFix">Detalhe dos clientes</div>
               <List />
             </Col>
           </Row>
@@ -33,4 +33,4 @@ class Clientes extends Component {
 
 
  
-export default Clientes;
+export default Clients;

@@ -77,39 +77,241 @@
         "id": "1",
         "attributes": {
             "date": "31/12", 
-            "rs": "4000"
+            "rs": 700
         }
     },
     {
         "type": "charts",
         "id": "2",
         "attributes": {
-            "date": "12/01", 
-            "rs": "2300"
+            "date": "01/01", 
+            "rs": 0
         }
     },
     {
         "type": "charts",
         "id": "3",
         "attributes": {
-            "date": "01/02", 
-            "rs": "5200"
+            "date": "02/01", 
+            "rs": 2800
         }
     },
     {
         "type": "charts",
         "id": "4",
         "attributes": {
-            "date": "19/03", 
-            "rs": "900"
+            "date": "03/01", 
+            "rs": ""
         }
     },
     {
         "type": "charts",
         "id": "5",
         "attributes": {
-            "date": "27/04", 
-            "rs": "7100"
+            "date": "04/01", 
+            "rs": ""        
+        }
+    },
+    {
+        "type": "charts",
+        "id": "6",
+        "attributes": {
+            "date": "05/01", 
+            "rs": 5000
+        }
+    },
+    {
+        "type": "charts",
+        "id": "7",
+        "attributes": {
+            "date": "06/01", 
+            "rs": ""        
+        }
+    },
+    {
+        "type": "charts",
+        "id": "8",
+        "attributes": {
+            "date": "07/01", 
+            "rs": ""        
+        }
+    },
+    {
+        "type": "charts",
+        "id": "9",
+        "attributes": {
+            "date": "08/01", 
+            "rs": 5200
+        }
+    },
+    {
+        "type": "charts",
+        "id": "10",
+        "attributes": {
+            "date": "09/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "11",
+        "attributes": {
+            "date": "10/01", 
+            "rs": 7100
+        }
+    },
+    {
+        "type": "charts",
+        "id": "12",
+        "attributes": {
+            "date": "11/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "13",
+        "attributes": {
+            "date": "12/01", 
+            "rs": 1.100
+        }
+    },
+    {
+        "type": "charts",
+        "id": "14",
+        "attributes": {
+            "date": "13/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "15",
+        "attributes": {
+            "date": "14/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "16",
+        "attributes": {
+            "date": "15/01", 
+            "rs": 1900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "17",
+        "attributes": {
+            "date": "16/01", 
+            "rs": 1100
+        }
+    },
+    {
+        "type": "charts",
+        "id": "18",
+        "attributes": {
+            "date": "17/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "19",
+        "attributes": {
+            "date": "18/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "20",
+        "attributes": {
+            "date": "19/01", 
+            "rs": 9500
+        }
+    },
+    {
+        "type": "charts",
+        "id": "21",
+        "attributes": {
+            "date": "20/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "22",
+        "attributes": {
+            "date": "21/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "23",
+        "attributes": {
+            "date": "22/01", 
+            "rs": 2000
+        }
+    },
+    {
+        "type": "charts",
+        "id": "24",
+        "attributes": {
+            "date": "23/01", 
+            "rs": 900
+        }
+    },
+    {
+        "type": "charts",
+        "id": "25",
+        "attributes": {
+            "date": "24/01", 
+            "rs": 900
+        }
+    },{
+        "type": "charts",
+        "id": "26",
+        "attributes": {
+            "date": "25/01", 
+            "rs": 3000
+        }
+    },{
+        "type": "charts",
+        "id": "27",
+        "attributes": {
+            "date": "26/01", 
+            "rs": 900
+        }
+    },{
+        "type": "charts",
+        "id": "28",
+        "attributes": {
+            "date": "27/01", 
+            "rs": 900
+        }
+    },{
+        "type": "charts",
+        "id": "29",
+        "attributes": {
+            "date": "28/01", 
+            "rs": 1900
+        }
+    },{
+        "type": "charts",
+        "id": "30",
+        "attributes": {
+            "date": "29/01", 
+            "rs": 900
+        }
+    },{
+        "type": "charts",
+        "id": "31",
+        "attributes": {
+            "date": "30/01", 
+            "rs": 900
         }
     }]
   }

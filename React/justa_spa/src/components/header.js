@@ -18,14 +18,14 @@ class AppHeader extends Component {
       return (
 
         <Navbar collapseOnSelect expand="lg" className="header headerNav">
-          <Navbar.Brand href="#home">
-              <img alt="" src={logo} className="d-inline-block align-top"/>
+          <Navbar.Brand href="#">
+              <img alt="" src={logo} className="d-inline-block align-top imgLogo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <NavLink exact to="/"><MdAnalytics className="" color="#ffffff"/> Dashboard</NavLink>
-              <NavLink to="/clientes"><MdPeople className="" color="#ffffff"/> Clientes</NavLink>
+              <NavLink to="/Clients"><MdPeople className="" color="#ffffff"/> Clientes</NavLink>
             </Nav>
             <Nav>
             <Image width={40} height={40} src={nasaLogo} roundedCircle/>

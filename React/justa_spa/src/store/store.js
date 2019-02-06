@@ -16,9 +16,7 @@ store.dispatch(setAxiosConfig({
     }
   }));
 
-store.dispatch(readEndpoint('data.json')).then(response => {
-    // console.log(response.body);
-});
+store.dispatch(readEndpoint('data.json'));
 
 
 export default store;

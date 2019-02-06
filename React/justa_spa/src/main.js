@@ -3,9 +3,9 @@ import {
     Route,
     HashRouter
   } from "react-router-dom";
-import Dashboard from "./components/screens/dashboard";
-import Clientes from "./components/screens/clientes";
-import AppHeader from "./components/header";
+import Dashboard from "./components/screens/Dashboard";
+import Clients from "./components/screens/Clients";
+import AppHeader from "./components/Header";
 
 class Main extends Component {
   render() {
@@ -15,7 +15,7 @@ class Main extends Component {
           <AppHeader/>
           <div className="content">
             <Route exact path="/" component={Dashboard}/>
-            <Route path="/clientes" component={Clientes}/>
+            <Route path="/clients" component={Clients}/>
           </div>
         </div>
       </HashRouter>
