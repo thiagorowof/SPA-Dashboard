@@ -1,0 +1,115 @@
+{
+    "customers": [{
+      "type": "customer",
+      "id": "1",
+      "relationships": {
+        "author": {
+          "customers": { "type": "customer", "id": "1" }
+        }
+      }
+    }],
+    "charts": [{
+        "type": "charts",
+        "id": "1",
+        "relationships": {
+          "author": {
+            "charts": { "type": "charts", "id": "1" }
+          }
+        }
+      }],
+    "included": [{
+      "type": "customer",
+      "id": "1",
+      "attributes": {
+        "name":"Eugenia King",
+        "company":" Breakfast of Champions",
+        "status":" Idle",
+        "lastChange":" 04/24/2017",
+        "notes":" Fact and Truth"
+      }
+    },
+    {
+        "type": "customer",
+        "id": "2",
+        "attributes": {
+            "name":"Customer Beta",
+            "company":"Breakfast of Champions",
+            "status":" Closed",
+            "lastChange":" 11/01/2017",
+            "notes":" On being Human"
+        }
+      },
+      {
+        "type": "customer",
+        "id": "3",
+        "attributes": {
+            "name":"Triton Beta",
+            "company":"Breakfast of Champions",
+            "status":" Closed",
+            "lastChange":" 11/01/2017",
+            "notes":" Always Look On The Bright Side of life"
+        }
+      },
+      {
+        "type": "customer",
+        "id": "4",
+        "attributes": {
+            "name":"Lou Wolfe",
+            "company":"Breakfast of Champions",
+            "status":" Closed",
+            "lastChange":" 21/09/2018",
+            "notes":" On being Human"
+        }
+      },
+      {
+        "type": "customer",
+        "id": "5",
+        "attributes": {
+            "name":"Emilie Young",
+            "company":"Breakfast of Champions",
+            "status":" Active",
+            "lastChange":" 11/01/2018",
+            "notes":" Peace on earth"
+        }
+      },
+    {
+        "type": "charts",
+        "id": "1",
+        "attributes": {
+            "date": "31/12", 
+            "rs": "4000"
+        }
+    },
+    {
+        "type": "charts",
+        "id": "2",
+        "attributes": {
+            "date": "12/01", 
+            "rs": "2300"
+        }
+    },
+    {
+        "type": "charts",
+        "id": "3",
+        "attributes": {
+            "date": "01/02", 
+            "rs": "5200"
+        }
+    },
+    {
+        "type": "charts",
+        "id": "4",
+        "attributes": {
+            "date": "19/03", 
+            "rs": "900"
+        }
+    },
+    {
+        "type": "charts",
+        "id": "5",
+        "attributes": {
+            "date": "27/04", 
+            "rs": "7100"
+        }
+    }]
+  }

@@ -3,9 +3,9 @@ import {
     Route,
     HashRouter
   } from "react-router-dom";
-import Dashboard from "./dashboard";
-import Clientes from "./clientes";
-import AppHeader from "./components/styledHeader";
+import Dashboard from "./components/screens/dashboard";
+import Clientes from "./components/screens/clientes";
+import AppHeader from "./components/header";
 
 class Main extends Component {
   render() {
