@@ -7,7 +7,7 @@
 
 ## Sobre o projeto
 
-Foi feito tudo o que foi pedido no teste da justa, obedecendo os seguintes pontos:
+Foi feito tudo o que foi pedido no teste da Justa, obedecendo os seguintes pontos:
 
 - [x] React
 - [x] Bootstrap
@@ -22,6 +22,9 @@ Pontos extras:
 
 Opcional do opcional que eu thiago pretendo fazer depois independente do teste em si:
 - [ ] Criar versões desse SPA utilizando outras tecnologias, começando pelo Ionic
+
+
+Agradeço ao Rai e o pessoal da Justa pela oportunidade e também por me proporcionarem essa "diversão:, que foi desenvolver esse projeto! :neckbeard:
 
 ## Instalação
 
@@ -49,7 +52,7 @@ São testes para verificar as rotas e gerar um snapshot.
 
 Na pasta React/justa_spa/ executar o comando:
 ```sh
-npm run teste
+npm run test
 ```
 Os testes vão rodar em seu terminal.
 
